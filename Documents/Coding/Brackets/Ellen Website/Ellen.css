@@ -1,0 +1,88 @@
+body{
+    background: antiquewhite;
+}
+
+.main-nav {
+    width: 100%;
+    background: none;  
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav .name {
+    display: none;
+}
+
+.nav li{
+    padding: 5px 10px 10px 10px;
+}
+
+.nav a {
+    color: black;
+    transition: all .5s;
+}
+
+.nav a:hover{
+    color: black;
+}
+
+header {
+    width: auto;
+    height: 150px;
+    text-align: center;
+    background: url(Ellen%20header.jpg) no-repeat top center;
+    overflow: hidden;
+    padding-top: 60px;
+    background-size: cover;
+    padding-bottom: 25px
+}
+
+header .profile-image {
+    margin: 20px 30px 40px;
+    width: 150px;
+    height: 150px;
+    border-radius: 150%;
+    border: 10px green;
+    transition: all .5s;
+}
+
+h1{
+    padding-top: 20px;
+    font-family: sans-serif;
+    color: none;
+    margin: 5px;
+}
+
+.card{
+    margin: 50px;
+    padding: 10px 20px 10px;
+    max-width: 500px;
+    text-align: left;
+    background: #ffe2b3;
+    border-bottom: 4px solid #ccc;
+    border-radius: 10px;
+}
+
+.intro{
+    padding: 5px 30px;
+    background-color: none;
+    margin-bottom: 30px;
+}
+
+
+
+.secondary {
+    background: none;
+    color: #777;
+}
